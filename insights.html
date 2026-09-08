@@ -1,9 +1,472 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#050b18"><link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" href="favicon.png" sizes="64x64"><link rel="apple-touch-icon" href="favicon.png"><meta name="robots" content="index,follow"><meta name="description" content="Reader intelligence, book market research and email marketing insights."><title>Insights | Alex Lyon</title><link rel="stylesheet" href="styles.css"></head><body>
-<nav><div class="container nav-inner">
-<a class="brand" href="index.html"><img src="logo.webp" alt="Book marketing and market intelligence emblem" width="42" height="42"><span>BOOK MARKETING &amp; MARKET INTELLIGENCE</span></a>
-<div class="nav-links">
-<a href="index.html" data-page="home">Home</a><a href="about.html" data-page="about">About</a><a href="services.html" data-page="services">Services</a><a href="portfolio.html" data-page="portfolio">Portfolio</a><a href="methodology.html" data-page="methodology">Methodology</a><a href="insights.html" data-page="insights">Insights</a><a class="nav-cta" href="contact.html" data-page="contact">Work With Me</a>
-</div></div></nav>
-<main><section class="page-hero"><div class="container"><div class="eyebrow">Insights</div><h1>Ideas worth <span class="accent">investigating.</span></h1><p class="lead">A future library of research notes, reader observations, market analysis and practical email-marketing thinking.</p></div></section>
-<section><div class="container grid3"><article class="card"><span class="tag">Reader Intelligence</span><h3>What reader language can reveal</h3><p>How recurring words, reactions and expectations can inform positioning and messaging.</p></article><article class="card"><span class="tag">Market Research</span><h3>From competitor lists to intelligence</h3><p>Why collecting names is not enough—and how comparison becomes strategically useful.</p></article><article class="card"><span class="tag">Email Marketing</span><h3>Why relevance beats volume</h3><p>Building communication around reader value rather than simply increasing send frequency.</p></article></div></div></section>
-<section><div class="container"><div class="cta"><div class="eyebrow">Coming As The Library Grows</div><h2>Research notes designed to be useful, not noisy.</h2><p>Insights will be added as original research and practical case studies develop.</p><a class="btn btn-secondary" href="contact.html">Discuss a Research Question</a></div></div></section></main><footer><div class="container footer-inner"><span>© 2026 Book Marketing &amp; Market Intelligence</span><span>Data • Readers • Strategy • Results</span></div></footer><script>document.querySelectorAll('[data-page="insights"]').forEach(x=>x.classList.add('active'));</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book Marketing Insights for Authors | Discovery, Positioning & Strategy | Orynne</title>
+<meta name="description" content="Orynne explores book marketing strategy, reader discovery, book positioning, online visibility, author strategy and promotion through practical research and analysis.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://orynne.netlify.app/insights">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Book Marketing Insights for Authors | Orynne">
+<meta property="og:description" content="Research and practical thinking around book discovery, positioning, online visibility and author marketing strategy.">
+<meta property="og:url" content="https://orynne.netlify.app/insights">
+<meta property="og:site_name" content="Orynne">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"CollectionPage",
+ "name":"Book Marketing Insights for Authors",
+ "url":"https://orynne.netlify.app/insights",
+ "description":"Research and practical thinking around book marketing strategy, discovery, positioning, visibility and promotion."
+}
+</script>
+<style>
+
+:root{
+  --ivory:#F7F3EA;
+  --cream:#FFFDF8;
+  --alternate:#EEE7DB;
+  --white:#FFFFFF;
+  --navy:#17263A;
+  --navy-2:#213A55;
+  --blue:#1E3A5F;
+  --blue-soft:#465463;
+  --muted:#5B6875;
+  --warm:#8A6A45;
+  --warm-2:#A27A4E;
+  --line:#DDD5C8;
+  --line-soft:rgba(23,38,58,.10);
+  --shadow:0 18px 55px rgba(23,38,58,.07);
+  --max:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  color:var(--navy);
+  background:
+    radial-gradient(circle at 82% 7%,rgba(162,122,78,.06),transparent 30rem),
+    radial-gradient(circle at 7% 55%,rgba(30,58,95,.035),transparent 30rem),
+    var(--ivory);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  line-height:1.65;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{width:min(calc(100% - 40px),var(--max));margin-inline:auto}
+.skip{position:absolute;left:-9999px;top:auto}
+.skip:focus{left:20px;top:20px;z-index:100;background:#fff;color:#000;padding:10px 14px;border-radius:8px}
+
+/* Navigation */
+header{
+  position:sticky;top:0;z-index:50;
+  background:rgba(247,243,234,.90);
+  backdrop-filter:blur(18px);
+  border-bottom:1px solid var(--line-soft);
+}
+.nav{
+  min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px;
+}
+.brand{display:inline-flex;align-items:center;line-height:0;font-weight:800}
+.site-logo{display:block;width:142px;height:auto;max-width:46vw}
+.brand span{color:var(--warm)}
+header nav,nav{
+  display:flex;gap:24px;align-items:center;
+  color:var(--muted);font-size:.88rem;flex-wrap:wrap
+}
+header nav a:hover,header nav a[aria-current="page"],
+nav a:hover,nav a[aria-current="page"]{color:var(--navy)}
+.button,.nav-cta{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  min-height:46px;padding:0 19px;border-radius:999px;
+  background:var(--blue);color:#fff!important;
+  border:1px solid transparent;font-weight:800;
+  box-shadow:0 7px 20px rgba(30,58,95,.12);
+  transition:transform .2s ease,background .2s ease,border-color .2s ease,color .2s ease;
+  cursor:pointer;
+}
+.button:hover,.nav-cta:hover{transform:translateY(-2px);background:var(--navy-2)}
+.button.secondary{
+  background:rgba(255,255,255,.55);color:var(--navy)!important;
+  border-color:rgba(23,38,58,.18);box-shadow:none
+}
+.button.secondary:hover{background:#fff;border-color:var(--warm);color:var(--warm)!important}
+
+/* Type hierarchy */
+h1,h2,h3{
+  font-family:Georgia,"Times New Roman",serif;
+  color:var(--navy);
+}
+h1{
+  font-size:clamp(3rem,7vw,6.2rem);
+  line-height:.98;letter-spacing:-.055em;
+}
+h2{
+  font-size:clamp(2.2rem,4.8vw,4rem);
+  line-height:1.04;letter-spacing:-.045em;
+}
+h3{line-height:1.18}
+.eyebrow,.section-kicker,.kicker,.tag,.number,.num,.principle-number,.step strong,.service small{
+  color:var(--warm);
+  text-transform:uppercase;
+  font-size:.72rem;
+  font-weight:850;
+  letter-spacing:.14em;
+}
+.lead{color:var(--muted);font-size:1.12rem}
+.section-head,.head{max-width:780px;margin-bottom:46px}
+.section-head p,.head p{color:var(--muted);font-size:1.05rem;margin:14px 0 0}
+.section-head h2,.head h2{margin:12px 0 16px}
+
+/* Shared sections */
+section{
+  padding:96px 0;
+  border-top:1px solid var(--line-soft);
+}
+section:nth-of-type(even){background:rgba(255,255,255,.40)}
+.hero{
+  position:relative;
+  overflow:hidden;
+  padding:110px 0 92px;
+  background:var(--ivory);
+}
+.hero::after{
+  content:"";
+  position:absolute;inset:0;pointer-events:none;
+  background:
+    radial-gradient(circle at 92% 25%,rgba(138,106,69,.075),transparent 24rem),
+    linear-gradient(135deg,transparent 55%,rgba(255,255,255,.35));
+}
+.hero>*{position:relative;z-index:1}
+.hero-grid{
+  position:relative;z-index:1;
+  display:grid;grid-template-columns:1.08fr .92fr;gap:64px;align-items:center;
+}
+.hero-content{max-width:880px}
+.hero h1{margin:18px 0 28px;max-width:860px}
+.hero h1 em{font-style:normal;color:var(--warm)}
+.hero-actions,.actions{
+  display:flex;flex-wrap:wrap;gap:12px;margin-top:32px
+}
+.microcopy{margin-top:16px;color:var(--blue-soft);font-size:.86rem}
+.hero-card{
+  border:1px solid var(--line);
+  background:linear-gradient(145deg,rgba(255,255,255,.92),rgba(238,231,219,.70));
+  border-radius:28px;padding:32px;
+  box-shadow:var(--shadow);
+}
+.hero-card h2{
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:1.35rem;line-height:1.2;margin:0 0 20px
+}
+.diagnosis{display:grid;gap:0}
+.diagnosis div{
+  padding:17px 0;border-bottom:1px solid var(--line);
+  color:var(--muted);font-size:.92rem
+}
+.diagnosis div:last-child{border-bottom:0}
+.diagnosis strong{display:block;color:var(--navy);margin-bottom:4px}
+.pulse{
+  width:9px;height:9px;border-radius:50%;display:inline-block;
+  margin-right:9px;background:var(--warm);vertical-align:middle
+}
+
+/* Homepage cards */
+.principles{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card,.principle,.method-card,.not-card,.topic,.article,.insight{
+  border:1px solid var(--line-soft);
+  background:rgba(255,255,255,.78);
+  border-radius:20px;
+  box-shadow:0 8px 28px rgba(23,38,58,.035);
+}
+.card{padding:29px}
+.card:hover,.principle:hover,.method-card:hover,.not-card:hover,.topic:hover,.article:hover,.insight:hover{
+  border-color:rgba(138,106,69,.28);
+  transform:translateY(-3px);
+  transition:.2s ease;
+}
+.card h3{margin:0 0 10px;font-size:1.25rem}
+.card p,.principle p,.method-card p,.not-card p,.topic p,.article p,.insight p{margin:0;color:var(--muted)}
+.num{margin-bottom:30px}
+
+/* Services */
+.services{
+  display:grid;grid-template-columns:repeat(2,1fr);gap:18px;
+  background:transparent;border:0;border-radius:0;overflow:visible
+}
+.service{
+  background:#fff;
+  border:1px solid var(--line-soft);
+  border-radius:20px;padding:30px;min-height:250px;
+  box-shadow:0 8px 28px rgba(23,38,58,.035);
+  transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease;
+}
+.service:hover{background:#fff;border-color:rgba(138,106,69,.28);transform:translateY(-3px);box-shadow:var(--shadow)}
+.service h3{font-size:1.45rem;margin:10px 0}
+.service p{color:var(--muted);margin:0;max-width:48ch}
+.service a,.article a{display:inline-block;margin-top:22px;color:var(--blue);font-weight:750}
+.service a:hover,.article a:hover{color:var(--warm)}
+
+/* Featured visual/media */
+.featured-media{
+  display:grid;grid-template-columns:.86fr 1.14fr;gap:34px;align-items:center;
+  padding:26px;border:1px solid var(--line);border-radius:24px;
+  background:linear-gradient(145deg,#fff,rgba(238,231,219,.68));
+  box-shadow:var(--shadow)
+}
+.featured-media-copy{padding:18px}
+.featured-media-copy h3{font-size:clamp(1.7rem,3vw,2.6rem);line-height:1.1;margin:12px 0 16px;letter-spacing:-.03em}
+.featured-media-copy p{color:var(--muted);margin:0;max-width:46ch}
+.media-meta{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}
+.media-meta span{
+  display:inline-flex;align-items:center;min-height:30px;padding:0 11px;
+  border-radius:999px;border:1px solid rgba(138,106,69,.22);
+  color:var(--blue-soft);font-size:.78rem;font-weight:750;background:var(--ivory)
+}
+.video-frame{
+  position:relative;border-radius:18px;overflow:hidden;background:#e7e0d4;
+  border:1px solid var(--line);box-shadow:0 18px 55px rgba(23,38,58,.14)
+}
+.video-frame::before{
+  content:"Featured promo";position:absolute;z-index:2;top:14px;left:14px;
+  padding:7px 10px;border-radius:999px;background:rgba(23,38,58,.82);
+  border:1px solid rgba(255,255,255,.16);color:#fff;font-size:.72rem;
+  font-weight:800;letter-spacing:.08em;text-transform:uppercase;pointer-events:none
+}
+.video-frame video{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+.work-grid,.editorial,.topics,.insights{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.work{
+  border:1px solid var(--line-soft);border-radius:18px;overflow:hidden;background:#fff;
+  box-shadow:0 8px 28px rgba(23,38,58,.035)
+}
+.work img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.work-body{padding:18px 18px 22px}
+.work-body h3{margin:0 0 6px;font-size:1.05rem}
+.work-body p{margin:0;color:var(--muted);font-size:.92rem}
+
+/* About */
+.intro{background:#fff}
+.intro-grid,.split{
+  display:grid;grid-template-columns:.72fr 1.28fr;gap:60px;align-items:start
+}
+.sticky-label{position:sticky;top:115px}
+.sticky-label h2{margin:12px 0 0}
+.prose{max-width:700px;color:var(--muted);font-size:1.06rem}
+.prose p{margin:0 0 22px}
+.prose strong{color:var(--navy)}
+.method{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.method-card{padding:28px}
+.method-card .number{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--ivory);border:1px solid var(--line);margin-bottom:18px}
+.method-card h3,.not-card h3{margin:0 0 10px;font-size:1.22rem}
+.not-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.not-card{padding:28px;background:rgba(238,231,219,.55)}
+.principle{padding:28px}
+.principle h3{margin:12px 0 9px;font-size:1.22rem}
+.principle-number{display:block}
+
+/* Steps / flow / FAQ */
+.steps{display:grid;gap:0}
+.step{
+  display:grid;grid-template-columns:54px 1fr;gap:20px;padding:22px 0;
+  border-bottom:1px solid var(--line)
+}
+.step:first-child{border-top:1px solid var(--line)}
+.step-no{
+  width:38px;height:38px;border-radius:50%;display:grid;place-items:center;
+  background:var(--ivory);color:var(--blue);border:1px solid var(--line);font-weight:800
+}
+.step h3{margin:0 0 6px}
+.step p{margin:0;color:var(--muted)}
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.flow article{padding:25px;border-top:2px solid var(--warm);background:rgba(255,255,255,.55)}
+.flow strong{color:var(--warm);font-size:.8rem;letter-spacing:.12em}
+.flow h3{margin:10px 0 8px}.flow p{margin:0;color:var(--muted);font-size:.9rem}
+.faq{display:grid;gap:10px}
+.faq details{
+  border:1px solid var(--line);border-radius:16px;background:#fff;padding:18px 20px
+}
+.faq summary{cursor:pointer;font-weight:750;color:var(--navy)}
+.faq details p{color:var(--muted);margin:12px 0 0}
+
+/* Insights */
+.topic,.article,.insight{padding:28px}
+.topic{min-height:210px}
+.topic h3{margin:18px 0 10px;font-size:1.25rem}
+.article{min-height:310px}
+.article h3{font-size:1.4rem;line-height:1.22;margin:20px 0 14px}
+.article a{color:var(--blue)}
+.note{
+  border:1px dashed rgba(138,106,69,.34);border-radius:18px;padding:30px;
+  color:var(--muted);background:rgba(255,255,255,.55)
+}
+.note strong{color:var(--navy)}
+
+/* Contact */
+.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px;padding-bottom:100px}
+.info,.form-card{
+  border:1px solid var(--line);border-radius:22px;background:#fff;
+  box-shadow:0 8px 28px rgba(23,38,58,.035)
+}
+.info{padding:36px}.form-card{padding:36px}
+.info h2,.form-card h2{margin:0 0 14px;font-size:1.6rem}
+.info p,.form-card>p{margin:0;color:var(--muted)}
+.form-card form{margin-top:28px}
+form{display:grid;gap:18px}
+.field{display:grid;gap:8px}
+label{font-size:.92rem;font-weight:700;color:var(--navy)}
+input,textarea,select{
+  width:100%;background:#fff;border:1px solid var(--line);border-radius:10px;
+  color:var(--navy);padding:14px 15px;font:inherit
+}
+textarea{min-height:170px;resize:vertical}
+input:focus,textarea:focus,select:focus{
+  outline:2px solid rgba(138,106,69,.30);border-color:var(--warm)
+}
+.field small,.privacy{color:var(--muted)}
+.privacy{font-size:.86rem}
+.honey{position:absolute;left:-9999px}
+.full{grid-column:1/-1}
+
+/* CTA / Footer */
+.cta{
+  padding:82px 0;text-align:center;
+  background:
+    radial-gradient(circle at 50% 0%,rgba(138,106,69,.09),transparent 34rem),
+    var(--alternate);
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line)
+}
+.cta .section-head,.cta .head{margin:0 auto 28px}
+.cta h2{max-width:900px;margin-left:auto;margin-right:auto}
+footer{
+  padding:35px 0;border-top:1px solid var(--line-soft);
+  color:var(--muted);font-size:.8rem;background:rgba(247,243,234,.72)
+}
+.footer,.footer-row{
+  display:flex;justify-content:space-between;align-items:center;gap:20px
+}
+footer a:hover{color:var(--navy)}
+
+/* Thank-you / 404 */
+main .w{width:min(calc(100% - 40px),820px)}
+body:has(main.w),body:has(main.w) main{
+  background:transparent
+}
+.w{text-align:center;padding:60px 0}
+.logo{width:150px;margin:auto}
+.w h1{margin:22px 0 12px}
+.w p{color:var(--muted);font-size:1.12rem}
+.b{display:inline-flex;align-items:center;justify-content:center;margin-top:20px;padding:13px 22px;border-radius:999px;background:var(--blue);color:#fff;text-decoration:none;font-weight:800}
+
+/* Accessibility */
+::selection{background:var(--alternate);color:var(--navy)}
+:focus-visible{outline:2px solid var(--warm);outline-offset:3px}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+@media(max-width:900px){
+  .hero-grid,.intro-grid,.split,.featured-media,.contact-grid{grid-template-columns:1fr}
+  .hero{padding:85px 0 72px;min-height:auto}
+  .hero-card{max-width:760px}
+  .principles,.topics,.editorial,.insights,.work-grid,.not-grid{grid-template-columns:1fr 1fr}
+  .services{grid-template-columns:1fr 1fr}
+  .flow{grid-template-columns:1fr 1fr}
+  .method{grid-template-columns:1fr 1fr}
+  .sticky-label{position:static}
+  header nav a:not(:last-child){display:none}
+}
+@media(max-width:600px){
+  .wrap{width:min(calc(100% - 28px),var(--max))}
+  .nav{min-height:70px}
+  .site-logo{width:125px}
+  .nav{gap:12px}
+  header nav{display:none}
+  .nav .button,.nav .nav-cta{min-height:42px;padding:0 14px;font-size:.82rem}
+  h1{font-size:clamp(3rem,15vw,5rem)}
+  section{padding:72px 0}
+  .hero{padding:70px 0}
+  .page-hero{padding:65px 0 35px}
+  .principles,.topics,.editorial,.insights,.work-grid,.not-grid,.services,.method,.flow{grid-template-columns:1fr}
+  .card,.service,.principle,.method-card,.not-card,.topic,.article,.insight{padding:24px}
+  .featured-media{padding:16px}
+  .featured-media-copy{padding:12px 8px}
+  .contact-grid{padding-bottom:70px}
+  .info,.form-card{padding:26px}
+  .footer,.footer-row{flex-direction:column;align-items:flex-start}
+  .button{width:auto}
+}
+
+/* Standalone utility pages */
+body > main:not(#main){
+  min-height:100vh;
+  display:grid;
+  place-items:center;
+  padding:50px 0;
+}
+body > main:not(#main) > *{width:min(calc(100% - 40px),820px);margin-left:auto;margin-right:auto}
+body > main:not(#main) .brand{width:auto}
+body > main:not(#main) .eyebrow{margin-top:34px}
+body > main:not(#main) h1{margin:18px auto 24px;text-align:center}
+body > main:not(#main) p{max-width:640px;margin:0 auto 28px;color:var(--muted);text-align:center}
+body > main:not(#main) > a:last-child{
+  display:inline-flex;width:auto;min-height:46px;padding:0 20px;
+  align-items:center;justify-content:center;border-radius:999px;
+  background:var(--blue);color:#fff;font-weight:800;
+}
+header.w.h{
+  min-height:78px;display:flex;align-items:center;justify-content:space-between;
+  width:min(calc(100% - 40px),var(--max));margin:auto;background:transparent;
+  border:0;backdrop-filter:none;
+}
+header.w.h .n{display:flex}
+
+</style>
+<meta name="theme-color" content="#F7F3EA">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon-180.png">
+
+<meta name="theme-color" content="#F7F3EA">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon-180.png">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="wrap nav"><a class="brand" href="index.html" aria-label="Orynne home"><img src="orynne-logo.svg" alt="Orynne" class="site-logo"></a><nav aria-label="Primary navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="insights.html" aria-current="page">Insights</a><a href="contact.html">Contact</a></nav><a class="button" href="contact.html">Start a conversation</a></div></header>
+<main id="main">
+<section class="hero"><div class="wrap"><div class="eyebrow">Book marketing research & insights</div><h1>Useful questions deserve more than generic answers.</h1><p class="lead">Orynne's insights are organised around how books are discovered, understood, positioned and promoted online—so authors can think more clearly about the decisions surrounding their work.</p></div></section>
+
+<section><div class="wrap"><div class="head"><div class="tag">Editorial areas</div><h2>A focused map of the questions that shape book marketing.</h2><p>These themes form the long-term topical structure of Orynne's research and educational content.</p></div>
+<div class="topics">
+<article class="topic"><div class="tag">Reader behavior</div><h3>How readers discover and evaluate books</h3><p>Explore the signals, expectations and decision points that can shape whether a reader moves toward a title.</p></article>
+<article class="topic"><div class="tag">Book marketing</div><h3>Strategy before activity</h3><p>Examine how authors can distinguish useful marketing direction from simply accumulating more tasks.</p></article>
+<article class="topic"><div class="tag">Online visibility</div><h3>Being present is not the same as being discoverable</h3><p>Look at the difference between existing online and being encountered through meaningful discovery paths.</p></article>
+<article class="topic"><div class="tag">Author strategy</div><h3>Connecting the catalogue and platform</h3><p>Consider how books, websites, newsletters and other assets can support a clearer reader journey.</p></article>
+<article class="topic"><div class="tag">Market intelligence</div><h3>Research that informs a decision</h3><p>Focus on evidence that helps clarify a question rather than research performed without a strategic purpose.</p></article>
+<article class="topic"><div class="tag">Promotion</div><h3>Promotion with a reason behind it</h3><p>Examine what a promotional activity is actually intended to accomplish before measuring whether it “worked.”</p></article>
+</div></div></section>
+
+<section><div class="wrap"><div class="head"><div class="tag">Planned cornerstone content</div><h2>The articles that should form Orynne's first topical clusters.</h2><p>These are deliberately presented as editorial priorities and not as already-published research.</p></div>
+<div class="editorial">
+<article class="article"><div class="tag">Book discovery</div><h3>How Do Readers Discover New Books Online?</h3><p>A cornerstone exploration of the environments, signals and paths that can bring a book to a potential reader's attention.</p><a href="services.html">Related: Reader & Book Discovery →</a></article>
+<article class="article"><div class="tag">Marketing strategy</div><h3>How to Create a Book Marketing Strategy Before Spending More on Promotion</h3><p>A practical distinction between choosing a direction and simply increasing promotional activity.</p><a href="services.html">Related: Book Marketing Strategy →</a></article>
+<article class="article"><div class="tag">Book positioning</div><h3>What Is Book Positioning and Why Does It Matter?</h3><p>An introduction to how readers understand where a book belongs and why that interpretation affects marketing.</p><a href="services.html">Related: Book Positioning →</a></article>
+<article class="article"><div class="tag">Online visibility</div><h3>Why Being Available Online Does Not Automatically Make a Book Discoverable</h3><p>Availability and discovery are different conditions. This topic examines the space between them.</p><a href="services.html">Related: Online Visibility →</a></article>
+<article class="article"><div class="tag">Author strategy</div><h3>What Is an Author Platform and What Does It Actually Need to Do?</h3><p>A practical look at the role of an author platform in connecting readers, books and future actions.</p><a href="services.html">Related: Author Platform →</a></article>
+<article class="article"><div class="tag">Promotion</div><h3>What Should Authors Look At When Book Marketing Isn't Working?</h3><p>A diagnostic framework for examining assumptions before deciding that the answer is simply more promotion.</p><a href="services.html">Related: Book Marketing Support →</a></article>
+</div></div></section>
+
+<section><div class="wrap"><div class="head"><div class="tag">Publishing standard</div><h2>Evidence before certainty.</h2><p>Orynne's insights should remain useful, specific and intellectually honest. Where evidence is incomplete, uncertainty should be acknowledged rather than replaced with confident-sounding assumptions.</p></div>
+<div class="note"><strong>SEO note:</strong> When these articles are published, each should receive its own permanent URL, unique title and meta description, Article structured data, internal links to the relevant Orynne service page and links to closely related insights. That structure will allow the Insights section to become a genuine topical authority hub rather than a collection of disconnected posts.</div></div></section>
+
+<section class="cta"><div class="wrap"><div class="head"><div class="tag">Start with the situation</div><h2>Research is most useful when it helps answer a real question.</h2><p>If there is something unclear about your book's discovery, positioning or marketing direction, describe the situation and begin there.</p></div><a class="button" href="contact.html">Tell Orynne what’s happening →</a></div></section>
+</main>
+<footer><div class="wrap footer"><div>© <span id="year"></span> Orynne. Book marketing insights for authors.</div><div><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="services.html">Services</a> · <a href="insights.html">Insights</a> · <a href="contact.html">Contact</a></div></div></footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear()</script>
+</body></html>
